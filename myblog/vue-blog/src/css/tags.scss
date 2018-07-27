@@ -1,0 +1,18 @@
+.tags{
+  margin: 10px;
+  >a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgba(0,0,0,.6);
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    &:hover{
+      color: #fff;
+      background-color: #44cef6;
+      border-radius: 5px;
+    }
+  }
+}
