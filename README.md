@@ -75,7 +75,7 @@
 
 ### 项目效果图
 
-![Image text](myblog/jietu/1.png)
+![Image text](https://github.com/Tysnad/myblog/blob/master/jietu/1.png)
 
 ![](C:\Users\Administrator\Desktop\2.png)
 
