@@ -77,11 +77,11 @@
 
 ![Image text](https://github.com/Tysnad/myblog/blob/master/jietu/1.png)
 
-![](C:\Users\Administrator\Desktop\2.png)
+![Image text](https://github.com/Tysnad/myblog/blob/master/jietu/2.png)
 
-![](C:\Users\Administrator\Desktop\3.png)
+![Image text](https://github.com/Tysnad/myblog/blob/master/jietu/3.png)
 
-![](C:\Users\Administrator\Desktop\4.png)
+![Image text](https://github.com/Tysnad/myblog/blob/master/jietu/4.png)
 
 
 
