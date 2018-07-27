@@ -1,0 +1,14 @@
+.annotation{
+  margin: 5px;
+}
+.attention{
+  text-align: center;
+  font-size: 18px;
+}
+.lable a{
+  font-size: 16px;
+  color: rgba(0,0,0,.5);
+  &:hover{
+    color: #44cef6;
+  }
+}

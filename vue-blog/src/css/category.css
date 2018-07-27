@@ -1,0 +1,10 @@
+.classify {
+  display: inline-block;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px; }
+  .classify li:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+/*# sourceMappingURL=category.css.map */
