@@ -75,7 +75,7 @@
 
 ### 项目效果图
 
-![](C:\Users\Administrator\Desktop\1.png)
+![](myblog/jietu/1.png)
 
 ![](C:\Users\Administrator\Desktop\2.png)
 
