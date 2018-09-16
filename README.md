@@ -20,9 +20,9 @@
   1. django创建项目、应用，配置和创建数据库，添加视图逻辑以及映射路由与视图关系等等
   2. mysql
 
-- 服务端部分
+- 服务器部署
 
-  Apache + mod_wsgi
+  采用Apache + mod_wsgi
 
 ### 项目文件介绍：
 
@@ -75,13 +75,13 @@
 
 ### 项目效果图
 
-![](C:\Users\Administrator\Desktop\1.png)
+![Image text](https://github.com/Tysnad/myblog/blob/master/jietu/1.png)
 
-![](C:\Users\Administrator\Desktop\2.png)
+![Image text](https://github.com/Tysnad/myblog/blob/master/jietu/2.png)
 
-![](C:\Users\Administrator\Desktop\3.png)
+![Image text](https://github.com/Tysnad/myblog/blob/master/jietu/3.png)
 
-![](C:\Users\Administrator\Desktop\4.png)
+![Image text](https://github.com/Tysnad/myblog/blob/master/jietu/4.png)
 
 
 
