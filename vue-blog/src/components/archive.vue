@@ -1,6 +1,6 @@
 <template>
   <div class="archive">
-    <div class="borderstyle container">
+    <div class="borderStyle container">
       <h1 class="title">文章</h1>
       <div class="content">
         <p><strong>Tysnad</strong>目前共有文章{{allCount}}篇</p>
@@ -37,7 +37,8 @@ export default {
   methods: {
     ...mapActions([
       'getArticles',
-      'toggleListItem'
+      'toggleListItem',
+      'getListItem'
     ]),
     ...mapMutations([])
   },

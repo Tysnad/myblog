@@ -7,6 +7,10 @@
           <a>Tysnad</a>
         </h1>
       </div>
+      <p class='content'>
+        博主联系方式：Tysnad@163.com。<br/>
+        Github：https://github.com/Tysnad 。
+      </p>
       <div class="centerItems">
         <div>
           <router-link to="/"><span>{{count.article}}</span><i class="iconfont icon-wenzhang"></i></router-link>

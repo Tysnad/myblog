@@ -70,33 +70,39 @@ export default {
     max-width: 1120px;
   }
   .main{
+    margin-top: 20px;
     padding: 80px 0 30px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    display: -webkit-flex;
   }
   .left{
-    height: 451px;
     margin: 0px;
     width: 187px;
   }
+
+  .center{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 58.3%;
+    min-width: 58.3%;
+  }
+  .right{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    min-height: 100px;
+    width: 25%;
+    min-width: 25%;
+  }
+
   .explain1,.explain2{
     text-align: center;
   }
   .explain2{
     display: none;
   }
-  .center{
-    margin-bottom: 20px;
-    margin-left: 20px;
-    width: 70%;
-  }
-  .right{
-    margin-bottom: 20px;
-    margin-left: 20px;
-    min-height: 100px;
-    width: 30%;
-  }
+
   .title{
     padding: 15px 30px;
     border-bottom: 1px solid #eee;
@@ -126,6 +132,9 @@ export default {
     .left,.center,.right{
       width: 100%;
       margin: 0;
+    }
+    .center{
+      margin-top: 20px;
     }
     .main{
       flex-direction: column;

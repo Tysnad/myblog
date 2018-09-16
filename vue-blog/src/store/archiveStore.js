@@ -24,7 +24,7 @@ export default {
         callback: (res) => {
           state.allCount = res.data['allCount']
           res.data['list'].forEach((ele) => {
-            ele['checked'] = true
+            ele['checked'] = false
             ele['children'] = []
           })
           state.list = res.data['list']
