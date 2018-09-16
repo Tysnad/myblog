@@ -41,7 +41,7 @@
 1. 下载前端需要的依赖包
 
    ```
-    cd djangoBlog/vue-blog //进入vue-blog目录
+    cd  vue-blog //进入vue-blog目录
     npm install //下载
     npm run build//编译一下文件
    ```
