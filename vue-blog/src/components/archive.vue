@@ -38,7 +38,6 @@ export default {
     ...mapActions([
       'getArticles',
       'toggleListItem',
-      'getListItem'
     ]),
     ...mapMutations([])
   },
