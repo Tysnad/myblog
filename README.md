@@ -5,6 +5,8 @@ a blog project which was built by django and vue
 # myblog
 ### 更新：
 
+2018.11.21 :修复文字溢出及组件状态错误
+
 2018.9.16 ： 修复archive组件点击显示文章列表时需要点击两次才能显示的错误
 
 ### 前言：
