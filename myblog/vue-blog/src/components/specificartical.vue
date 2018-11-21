@@ -5,7 +5,7 @@
       <div>
         <span class="annotation"><i></i>{{specific.date}}</span>
       </div>
-      <div v-html="specific.content"></div>
+      <div id="overflow" v-html="specific.content"></div>
       <div class="attention"><i>@Tysnad</i></div>
       <div class="lable"><i></i><a v-for="(tag,index) in specific.tags" :key="index">{{index!=0?',':''}}{{tag}}</a></div>
     </div>
@@ -17,15 +17,19 @@ import {mapState, mapActions, mapMutations} from 'vuex'
 export default {
   name: 'specificartical',
   data: function () {
-    return {}
+    return {
+      loading: this.getLoadingState()
+    }
   },
   computed: {
     ...mapState({
-      specific: state => state.archiveStore.specific,
-      loading: state => state.archiveStore.loading
+      specific: state => state.archiveStore.specific
     })
   },
   methods: {
+    ...mapState({
+      getLoadingState: state => state.archiveStore.loading
+    }),
     ...mapActions(['getArticlesSpecific']),
     ...mapMutations([])
   },
@@ -38,6 +42,7 @@ export default {
     this.getArticlesSpecific(to.params.id)
     next()
   }
+
 }
 </script>
 
