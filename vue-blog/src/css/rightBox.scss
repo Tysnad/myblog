@@ -1,0 +1,38 @@
+#slogan{
+  padding: 25px;
+  font-size: 14px;
+  margin: 0;
+}
+#name{
+  float: right;
+}
+.boxs{
+  > div{
+    margin-top: 20px;
+  }
+  ul{
+    list-style: none;
+  }
+}
+.classify{
+   > li{
+    border-bottom: 1px solid #eeeeee;
+    color: rgba(0,0,0,.5);
+    line-height: 18px;
+    padding: 13px;
+    margin-right: 5px;
+     a:hover{
+       text-decoration: underline;
+     }
+  }
+  .children{
+    margin-left: 20px;
+  }
+  .change{
+    cursor: pointer;
+    span{
+      margin-right: 5px;
+    }
+  }
+}
+
